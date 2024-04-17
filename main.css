@@ -123,8 +123,9 @@ section{
 
   .banner{
     position: relative;
-    bottom: 110px;
-    width: 150%;
+    bottom: 510px;
+    width: 100%;
+    left: 400px;
   }
 }
 
@@ -271,3 +272,49 @@ section{
   }
 }
 
+@media (max-width: 676px) {
+
+  header {
+    nav{
+      display: none;
+    }
+  }
+
+  .container {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+
+  #home{
+    padding-top: 30px;
+    display: block;
+
+    h2{
+      width: 550px;
+      text-align: center;
+      margin-left: 30px;
+    }
+    
+    p{
+      align-items: center;
+      width: 100%;
+    }
+    
+    .mktext{
+      max-width: 100%;
+      width: 420px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 90px;
+    }
+    
+    .banner{
+      position: relative;
+      top: 30px;
+      left: 0;
+      width: 600px;
+    }
+  }
+}
