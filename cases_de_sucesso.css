@@ -1,0 +1,45 @@
+span{
+  font-weight: bold;
+}
+
+.cases_de_sucesso{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+
+  /* .txt{
+    margin-bottom: 200px;
+  } */
+
+  h2{
+    font-size: 4em;
+  }
+
+  p{
+    font-size: 1.8em;
+    width: 100%;
+  }
+
+    img{
+      width: 130%;
+    }
+}
+
+.ivg{
+  padding-bottom: 130px;
+}
+
+.cau{
+  padding-bottom: 150px;
+}
+
+.oh{
+  display: block;
+
+  img{
+    align-items: start;
+    width: 80%;
+  }
+}
