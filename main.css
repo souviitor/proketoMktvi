@@ -281,12 +281,15 @@ section{
   }
 
   .container {
-    max-width: 100%;
+    max-width: 80%;
     width: 100%;
     display: block;
   }
 
+  /* HOME */
   #home{
+    max-width: 80%;
+    width: 100%;
     padding-top: 30px;
     display: block;
 
@@ -308,6 +311,7 @@ section{
       flex-wrap: wrap;
       justify-content: center;
       margin-left: 90px;
+      line-height: 2.5em;
     }
     
     .banner{
@@ -317,4 +321,53 @@ section{
       width: 600px;
     }
   }
+
+  /* ABOUT */
+  #about{
+    width: 100%;
+    .mktext{
+      padding: 0;
+      max-width: 100%;
+      width: 400px;
+      line-height: 2.5em;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  /* AVISOS */
+  #aviso{
+    padding: 0;
+
+    .avisos{
+      h2, p{
+        position: relative;
+      }
+
+      h2{
+        width: 200px;
+        font-size: 22px;
+        left: 150px;
+        top: 1px;
+        
+      }
+
+      p{
+        width: 200px;
+        font-size: 13px;
+        left: 260px;
+      }
+    }
+
+    .quadro{
+      position: relative;
+      width: 350%;
+      left: -150px;
+      bottom: 520px;
+      
+    }
+  }
+
+  /* SOLUCTIONS */
+
 }
