@@ -244,28 +244,29 @@ section {
   width: 100%;
   align-content: center;
   align-items: center;
-  padding: 0;
 
   button {
     background-color: transparent;
     border: 1px solid #8cc05f;
     text-transform: uppercase;
-    padding: 10px 80px;
+    padding: 8px 80px;
 
     a {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   .wpp {
-    padding: 10px 85px;
+    padding: 8px 85px;
   }
 
   .cont {
     position: relative;
     bottom: 250px;
     left: 0;
+    element.style {
     display: flex;
     align-items: flex-start;
+}
   }
 
   .maps iframe {
