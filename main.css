@@ -195,9 +195,9 @@ section {
 
   .gestao {
     position: relative;
-    right: 200px;
-    bottom: 100px;
-    width: 140%;
+    right: 100px;
+    top: 50px;
+    width: 120%;
     align-items: center;
   }
 }
@@ -244,30 +244,35 @@ section {
   width: 100%;
   align-content: center;
   align-items: center;
+  padding: 0;
 
   button {
     background-color: transparent;
     border: 1px solid #8cc05f;
     text-transform: uppercase;
-    padding: 8px 80px;
+    padding: 10px 80px;
 
     a {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
   .wpp {
-    padding: 8px 85px;
+    padding: 10px 85px;
   }
 
   .cont {
     position: relative;
     bottom: 250px;
     left: 0;
+    display: flex;
+    align-items: flex-start;
   }
 
   .maps iframe {
     border-radius: 50px;
+    margin-top: 40px;
   }
+
 }
 
 @media (max-width: 676px) {
@@ -418,7 +423,7 @@ section {
         position: relative;
         left: -25px;
         top: 70px;
-        width: 190%;
+        width: 200%;
         align-items: center;
       }
     }
@@ -450,7 +455,7 @@ section {
         position: relative;
         left: -25px;
         top: 50px;
-        width: 190%;
+        width: 200%;
         align-items: center;
       }
 
