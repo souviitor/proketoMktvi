@@ -372,21 +372,21 @@ section {
         width: 200px;
         font-size: 22px;
         left: 150px;
-        top: 1px;
+        top: 4px;
       }
 
       p {
         width: 200px;
         font-size: 13px;
-        left: 260px;
+        left: 245px;
       }
     }
 
     .quadro {
       position: relative;
-      left: 10px;
+      left: -25px;
       bottom: 480px;
-      width: 190%;
+      width: 200%;
     }
   }
 
