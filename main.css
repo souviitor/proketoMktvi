@@ -1,12 +1,12 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'urw geometric',;
+  font-family: "urw geometric";
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background-image: url(./img/team.png);
 }
 
@@ -23,7 +23,6 @@ header {
   background-color: transparent;
 }
 
-
 .container {
   max-width: 1024px;
   width: 100%;
@@ -33,53 +32,52 @@ header {
   padding: 0 16px;
   align-items: center;
 
-  li{
+  li {
     display: inline;
     margin-right: 40px;
   }
 
-  li{ 
+  li {
     list-style: none;
   }
 
-  a{
+  a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
     border-bottom: 1px solid transparent;
   }
 
-
   .menu a:hover {
-    transition: all .5s ease;
+    transition: all 0.5s ease;
     border-bottom: 2px solid #8cc05f;
     color: #8cc05f;
   }
 }
 
-section{
+section {
   align-items: center;
   padding-bottom: 100px;
   padding-top: 160px;
 
-  .sobre{
+  .sobre {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
 
-  h2{
+  h2 {
     font-size: 36px;
     color: #fff;
     font-weight: bold;
-    margin-top:190px;
+    margin-top: 190px;
   }
 
-  .begreen{
+  .begreen {
     color: #8cc05f;
   }
 
-  p{
+  p {
     color: #fff;
     font-size: 18px;
     font-weight: lighter;
@@ -89,21 +87,21 @@ section{
     font-size: 18px;
   }
 
-  button{
+  button {
     background-color: #8cc05f;
     border-radius: 50px;
     border: none;
     padding: 15px;
     margin-top: 30px;
 
-    &:hover{
+    &:hover {
       background-color: #f5f6fa;
-        transform: scale(1.1);
-        transition: all .7s ease;
+      transform: scale(1.1);
+      transition: all 0.7s ease;
     }
   }
-  
-  .mktext button a{
+
+  .mktext button a {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 0.1em;
@@ -111,17 +109,17 @@ section{
     line-height: 2.1em;
     font-weight: bold;
 
-    &:hover{
+    &:hover {
       color: black;
       font-weight: bold;
     }
   }
 
-  img{
+  img {
     width: 80%;
   }
 
-  .banner{
+  .banner {
     position: relative;
     bottom: 510px;
     width: 100%;
@@ -131,50 +129,50 @@ section{
 
 /* ABOULT */
 #about {
-  .cases{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 7em;
-      margin-top: 175px ;
+  .cases {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7em;
+    margin-top: 175px;
   }
 
-  .who{
+  .who {
     margin-top: 50px;
   }
 
-  .casesbtn  {
+  .casesbtn {
     padding: 3px;
-    
-    a{
+
+    a {
       font-size: 16px;
       letter-spacing: 0;
       padding: 18px;
       text-align: center;
-      letter-spacing: .1em;
+      letter-spacing: 0.1em;
     }
   }
 }
 
 /* QUADRO DE AVISOS */
-.avisos{
+.avisos {
   margin-top: 90px;
   margin-right: 5px;
   margin: 0 auto;
 
-  h2{
+  h2 {
     position: relative;
     right: 50%;
     bottom: 80px;
   }
 
-  p{
+  p {
     position: relative;
     left: 10%;
     bottom: 20px;
     font-weight: lighter;
   }
 }
-.quadro{
+.quadro {
   margin-top: 100px;
   position: absolute;
   left: 50px;
@@ -183,55 +181,54 @@ section{
 }
 
 /* SOLUTION */
-.soluction{
+.soluction {
   margin-top: 100px;
   text-align: center;
 
-  p{
-  font-weight: lighter;
-  font-size: 25px;
-  width: 100%;
-}
+  p {
+    font-weight: lighter;
+    font-size: 25px;
+    width: 100%;
+  }
 
-  .gestao{
+  .gestao {
     position: relative;
     right: 200px;
     bottom: 100px;
     width: 140%;
     align-items: center;
-
   }
 }
 
 /* CASES */
-.case{
+.case {
   width: 100%;
   margin-top: 30px;
   margin: 0;
 
-  button{
+  button {
     position: relative;
     top: 110px;
     right: 0;
     z-index: 1000;
-    letter-spacing: .1rem;
+    letter-spacing: 0.1rem;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
       background-color: #f5f6fa;
     }
 
-    a{
+    a {
       text-transform: uppercase;
       font-weight: bold;
     }
 
-    &:hover a{
+    &:hover a {
       color: black;
     }
   }
-  
-  img{
+
+  img {
     position: relative;
     bottom: 300px;
     right: 100px;
@@ -240,42 +237,40 @@ section{
 }
 
 /* CONTATO */
-#contato{
+#contato {
   display: block;
   width: 100%;
   align-content: center;
   align-items: center;
-  
-  button{
+
+  button {
     background-color: transparent;
     border: 1px solid #8cc05f;
     text-transform: uppercase;
     padding: 8px 80px;
 
-    a{
+    a {
       font-size: 12px;
     }
-    
   }
-  .wpp{
+  .wpp {
     padding: 8px 85px;
   }
 
-  .cont{
+  .cont {
     position: relative;
     bottom: 250px;
     left: 0;
   }
 
-  .maps iframe{
+  .maps iframe {
     border-radius: 50px;
   }
 }
 
 @media (max-width: 676px) {
-
   header {
-    nav{
+    nav {
       display: none;
     }
   }
@@ -287,37 +282,40 @@ section{
   }
 
   /* HOME */
-  #home{
+  #home {
     max-width: 80%;
     width: 100%;
     padding-top: 30px;
     display: block;
 
-    h2{
+    h2 {
       width: 550px;
       text-align: center;
       margin-left: 30px;
-      font-size: 40px;
+      font-size: 50px;
     }
-    
-    p{
+
+    p {
       align-items: center;
       width: 100%;
       font-size: 30px;
     }
-    
-    .mktext{
+
+    .mktext {
       max-width: 100%;
-      width: 460px;
+      width: 500px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-left: 85px;
+      margin-left: 60px;
       line-height: 3em;
-      
     }
-    
-    .banner{
+
+    button a {
+      font-size: 23px;
+    }
+
+    .banner {
       position: relative;
       top: 30px;
       left: 0;
@@ -326,49 +324,71 @@ section{
   }
 
   /* ABOUT */
-  #about{
+  #about {
     width: 100%;
-    .mktext{
-      padding: 0;
-      max-width: 100%;
-      width: 400px;
-      line-height: 2.5em;
-      flex-wrap: wrap;
+
+    .cases{
+      display: block;
+      align-items: center;
+
+      button a {
+        font-size: 23px;
+      }
     }
+    
+    .mktext {
+      padding: 0;
+      /* max-width: 100%; */
+      line-height: 3em;
+    }
+
+    h2 {
+      text-align: center;
+      align-items: center;
+      margin-left: 30px;
+      font-size: 50px;
+      width: 500px;
+    }
+    
+    p {
+      align-items: center;
+      width: 180%;
+      font-size: 30px;
+    }
+
+    
   }
 
   /* AVISOS */
-  #aviso{
+  #aviso {
     padding: 0;
 
-    .avisos{
-      h2, p{
+    .avisos {
+      h2, p {
         position: relative;
       }
 
-      h2{
+      h2 {
         width: 200px;
         font-size: 22px;
         left: 150px;
         top: 1px;
-        
       }
 
-      p{
+      p {
         width: 200px;
         font-size: 13px;
         left: 260px;
       }
     }
 
-    .quadro{
+    .quadro {
       position: relative;
-      left: -150px;
-      bottom: 520px;
-      
+      left: 10px;
+      bottom: 480px;
+      width: 190%;
     }
   }
 
   /* SOLUCTIONS */
-
 }
