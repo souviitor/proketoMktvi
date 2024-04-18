@@ -370,15 +370,16 @@ section {
 
       h2 {
         width: 200px;
-        font-size: 22px;
-        left: 150px;
-        top: 4px;
+        font-size: 25px;
+        left: 100px;
+        top: 130px;
       }
 
       p {
         width: 200px;
-        font-size: 13px;
-        left: 245px;
+        font-size: 15px;
+        left: 310px;
+        top: 36px;
       }
     }
 
@@ -386,7 +387,7 @@ section {
       position: relative;
       left: -25px;
       bottom: 480px;
-      width: 200%;
+      width: 220%;
     }
   }
 
