@@ -169,14 +169,16 @@ section {
     position: relative;
     left: 10%;
     bottom: 20px;
+    font-size: 25px;
     font-weight: lighter;
+    line-height: 1.5em;
   }
 }
 .quadro {
   margin-top: 100px;
   position: absolute;
-  left: 50px;
-  width: 90%;
+  left: 10%;
+  width: 70%;
   align-items: center;
 }
 
@@ -393,4 +395,110 @@ section {
   }
 
   /* SOLUCTIONS */
+  #soluctions{
+    display: block;
+    padding: 0;
+
+    .soluction {
+      h2{
+        text-align: center;
+        align-items: center;
+        margin-left: 30px;
+        font-size: 50px;
+        width: 500px;
+      }
+    
+      p {
+        align-items: center;
+        width: 180%;
+        font-size: 30px;
+      }
+    
+      .gestao {
+        position: relative;
+        left: -25px;
+        top: 70px;
+        width: 200%;
+        align-items: center;
+      }
+    }
+  }
+
+  /* CASES DE SUCESSO */
+  #cases{
+    display: block;
+    padding: 0;
+    padding-bottom: 450px;
+    
+
+    .case{
+      h2{
+        text-align: center;
+        align-items: center;
+        margin-left: 30px;
+        font-size: 50px;
+        width: 500px;
+      }
+    
+      p {
+        align-items: center;
+        width: 180%;
+        font-size: 30px;
+      }
+    
+      .success {
+        position: relative;
+        left: -25px;
+        top: 50px;
+        width: 200%;
+        align-items: center;
+      }
+
+      button {
+        position: relative;
+        width: 55%;
+        top: 500px;
+        right: 0;
+        z-index: 1000;
+        letter-spacing: 0.1rem;
+        cursor: pointer;
+
+        a{
+          font-size: 17px;
+        }
+        }
+    }
+  }
+
+  /* CONTATOS */
+  #contato{
+    display: block;
+    padding: 0;
+    margin: 0;
+    
+    
+    .cont{
+
+      .mapa{
+        margin-bottom: 20px;
+      }
+
+      button{
+          width: 120%;
+
+          a{
+            font-size: 20px;
+          }
+      }
+      .maps{
+      position: relative;
+      right: 13px;
+
+      p{
+        align-items: center;
+      }
+      }
+  }
+  }
 }
+
